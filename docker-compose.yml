@@ -1,0 +1,15 @@
+# Docker Compose: Jupyter Server.
+
+
+version: '3.8'
+
+services:
+  jupyter:
+    container_name: jupyter
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8888:8888
+    volumes:
+      - ./notebooks:/app/
