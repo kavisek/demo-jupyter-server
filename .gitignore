@@ -138,10 +138,9 @@ dmypy.json
 
 # Custom Files
 **/output/*
-!**/output/.gitkee
+!**/output/.gitkeep
 cloud_sql_proxy
 
 # Folders
 **/notebooks/*
 !**/notebooks/.gitkeep
-**/.ipynb_checkpoints
