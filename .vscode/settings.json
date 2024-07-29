@@ -4,4 +4,7 @@
       "titleBar.activeBackground": "#544B3D",
       "titleBar.activeForeground": "#FDFBF9"
     },
+  "python.terminal.activateEnvironment": true,
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.defaultInterpreterPath": "${workspaceFolder}/server/.venv/bin/python3",
 }

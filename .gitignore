@@ -144,3 +144,4 @@ cloud_sql_proxy
 # Folders
 **/notebooks/*
 !**/notebooks/.gitkeep
+!hello.ipynb

@@ -5,7 +5,7 @@ shutdown:
 	docker-compose down
 
 start: shutdown
-	docker compose up
+	docker-compose up
 
 
 # Clean Notebooks
