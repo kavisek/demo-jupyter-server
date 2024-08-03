@@ -9,3 +9,6 @@ start: shutdown
 
 requirements:
 	poetry run pip3 freeze > requirements.txt
+
+run:
+	poetry run jupyter lab --ip=0.0.0.0 --port=8888 --allow-root --NotebookApp.token='' --NotebookApp.password=''
